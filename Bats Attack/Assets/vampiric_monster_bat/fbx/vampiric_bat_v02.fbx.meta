@@ -1,0 +1,3443 @@
+fileFormatVersion: 2
+guid: 3944939d31f5dcd429d097c08c550930
+timeCreated: 1490060334
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bat_Geo
+    100002: Chest_Jnt
+    100004: Geo_Grp
+    100006: Head_Jnt
+    100008: Hip_Jnt
+    100010: Jaw_End_Jnt
+    100012: Jaw_Pivot_Jnt
+    100014: Joints_Grp
+    100016: Left_Ankle_Jnt
+    100018: Left_Ankle_Jnt_NOSKIN
+    100020: Left_Claw_Jnt
+    100022: Left_Ear_Base_Jnt
+    100024: Left_Ear_End_Jnt
+    100026: Left_Ear_Mid_Jnt
+    100028: Left_Foot_Jnt
+    100030: Left_Foot_Jnt_NOSKIN
+    100032: Left_Hip_Jnt
+    100034: Left_Knee_Jnt
+    100036: Left_ToeBase_Jnt
+    100038: Left_Toes_01_Jnt
+    100040: Left_Toes_02_Jnt
+    100042: Left_Wing_01_Jnt
+    100044: Left_Wing_02_Jnt
+    100046: Left_Wing_03_Jnt
+    100048: Left_Wing_05_Helper_Jnt
+    100050: Left_Wing_05_Jnt
+    100052: Left_Wing_Rear_Inner_Jnt
+    100054: Left_Wing_Rear_Outer_Jnt
+    100056: Neck_Mid_jnt
+    100058: Right_Ankle_Jnt
+    100060: Right_Ankle_Jnt_NOSKIN
+    100062: Right_Claw_Jnt
+    100064: Right_Ear_Base_Jnt
+    100066: Right_Ear_End_Jnt
+    100068: Right_Ear_Mid_Jnt
+    100070: Right_Foot_Jnt
+    100072: Right_Foot_Jnt_NOSKIN
+    100074: Right_Hip_Jnt
+    100076: Right_Knee_Jnt
+    100078: Right_ToeBase_Jnt
+    100080: Right_Toes_01_Jnt
+    100082: Right_Toes_02_Jnt
+    100084: Right_Wing_01_Jnt
+    100086: Right_Wing_02_Jnt
+    100088: Right_Wing_03_Jnt
+    100090: Right_Wing_05_Helper_Jnt
+    100092: Right_Wing_05_Jnt
+    100094: Right_Wing_Rear_Inner_Jnt
+    100096: Right_Wing_Rear_Outer_Jnt
+    100098: Root_Jnt
+    100100: Spine_01_Jnt
+    100102: Spine_02_Jnt
+    100104: Tail_01_Jnt
+    100106: Tail_02_Jnt
+    100108: Tail_03_Jnt
+    100110: Tail_04_Jnt
+    100112: Upper_Jaw_End_Jnt
+    100114: Upper_Jaw_Pivot_Jnt
+    100116: //RootNode
+    100118: locator1
+    100120: locator2
+    400000: Bat_Geo
+    400002: Chest_Jnt
+    400004: Geo_Grp
+    400006: Head_Jnt
+    400008: Hip_Jnt
+    400010: Jaw_End_Jnt
+    400012: Jaw_Pivot_Jnt
+    400014: Joints_Grp
+    400016: Left_Ankle_Jnt
+    400018: Left_Ankle_Jnt_NOSKIN
+    400020: Left_Claw_Jnt
+    400022: Left_Ear_Base_Jnt
+    400024: Left_Ear_End_Jnt
+    400026: Left_Ear_Mid_Jnt
+    400028: Left_Foot_Jnt
+    400030: Left_Foot_Jnt_NOSKIN
+    400032: Left_Hip_Jnt
+    400034: Left_Knee_Jnt
+    400036: Left_ToeBase_Jnt
+    400038: Left_Toes_01_Jnt
+    400040: Left_Toes_02_Jnt
+    400042: Left_Wing_01_Jnt
+    400044: Left_Wing_02_Jnt
+    400046: Left_Wing_03_Jnt
+    400048: Left_Wing_05_Helper_Jnt
+    400050: Left_Wing_05_Jnt
+    400052: Left_Wing_Rear_Inner_Jnt
+    400054: Left_Wing_Rear_Outer_Jnt
+    400056: Neck_Mid_jnt
+    400058: Right_Ankle_Jnt
+    400060: Right_Ankle_Jnt_NOSKIN
+    400062: Right_Claw_Jnt
+    400064: Right_Ear_Base_Jnt
+    400066: Right_Ear_End_Jnt
+    400068: Right_Ear_Mid_Jnt
+    400070: Right_Foot_Jnt
+    400072: Right_Foot_Jnt_NOSKIN
+    400074: Right_Hip_Jnt
+    400076: Right_Knee_Jnt
+    400078: Right_ToeBase_Jnt
+    400080: Right_Toes_01_Jnt
+    400082: Right_Toes_02_Jnt
+    400084: Right_Wing_01_Jnt
+    400086: Right_Wing_02_Jnt
+    400088: Right_Wing_03_Jnt
+    400090: Right_Wing_05_Helper_Jnt
+    400092: Right_Wing_05_Jnt
+    400094: Right_Wing_Rear_Inner_Jnt
+    400096: Right_Wing_Rear_Outer_Jnt
+    400098: Root_Jnt
+    400100: Spine_01_Jnt
+    400102: Spine_02_Jnt
+    400104: Tail_01_Jnt
+    400106: Tail_02_Jnt
+    400108: Tail_03_Jnt
+    400110: Tail_04_Jnt
+    400112: Upper_Jaw_End_Jnt
+    400114: Upper_Jaw_Pivot_Jnt
+    400116: //RootNode
+    400118: locator1
+    400120: locator2
+    4300000: Bat_Geo
+    7400000: t-pose
+    7400002: idle_fly
+    7400004: fly
+    7400006: fly_fast
+    7400008: land
+    7400010: idle_landed
+    7400012: fly_up
+    7400014: hurt1
+    7400016: hurt2
+    7400018: attack1
+    7400020: attack2
+    7400022: die1
+    7400024: dead1
+    7400026: die2
+    7400028: dead2
+    7400030: defend1
+    7400032: defend2
+    7400034: win
+    7400036: win2
+    7400038: lose
+    7400040: lose2
+    7400042: lose_idle
+    9500000: //RootNode
+    13700000: Bat_Geo
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: t-pose
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_fly
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly
+      takeName: Take 001
+      firstFrame: 40
+      lastFrame: 58
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly_fast
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: land
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: idle_landed
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 210
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fly_up
+      takeName: Take 001
+      firstFrame: 211
+      lastFrame: 264
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt1
+      takeName: Take 001
+      firstFrame: 265
+      lastFrame: 295
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hurt2
+      takeName: Take 001
+      firstFrame: 301
+      lastFrame: 330
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack1
+      takeName: Take 001
+      firstFrame: 335
+      lastFrame: 370
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.5049504
+        functionName: Attacked
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: attack2
+      takeName: Take 001
+      firstFrame: 375
+      lastFrame: 415
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die1
+      takeName: Take 001
+      firstFrame: 420
+      lastFrame: 456
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dead1
+      takeName: Take 001
+      firstFrame: 457
+      lastFrame: 460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: die2
+      takeName: Take 001
+      firstFrame: 465
+      lastFrame: 492
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dead2
+      takeName: Take 001
+      firstFrame: 496
+      lastFrame: 499
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: defend1
+      takeName: Take 001
+      firstFrame: 505
+      lastFrame: 538
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: defend2
+      takeName: Take 001
+      firstFrame: 540
+      lastFrame: 580
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: win
+      takeName: Take 001
+      firstFrame: 585
+      lastFrame: 720
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: win2
+      takeName: Take 001
+      firstFrame: 610
+      lastFrame: 720
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lose
+      takeName: Take 001
+      firstFrame: 730
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lose2
+      takeName: Take 001
+      firstFrame: 758
+      lastFrame: 800
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: lose_idle
+      takeName: Take 001
+      firstFrame: 800
+      lastFrame: 850
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Geo_Grp
+        weight: 1
+      - path: Geo_Grp/Bat_Geo
+        weight: 1
+      - path: Joints_Grp
+        weight: 1
+      - path: Joints_Grp/Root_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Left_Hip_Jnt/Left_Knee_Jnt/Left_Ankle_Jnt_NOSKIN/Left_Foot_Jnt_NOSKIN/Left_ToeBase_Jnt/Left_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_Claw_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Right_Hip_Jnt/Right_Knee_Jnt/Right_Ankle_Jnt_NOSKIN/Right_Foot_Jnt_NOSKIN/Right_ToeBase_Jnt/Right_Toes_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_03_Jnt/Left_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Left_Wing_01_Jnt/Left_Wing_02_Jnt/Left_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Jaw_Pivot_Jnt/Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Left_Ear_Base_Jnt/Left_Ear_Mid_Jnt/Left_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Right_Ear_Base_Jnt/Right_Ear_Mid_Jnt/Right_Ear_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Neck_Mid_jnt/Head_Jnt/Upper_Jaw_Pivot_Jnt/Upper_Jaw_End_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Helper_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_03_Jnt/Right_Wing_05_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Inner_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Spine_01_Jnt/Spine_02_Jnt/Chest_Jnt/Right_Wing_01_Jnt/Right_Wing_02_Jnt/Right_Wing_Rear_Outer_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt
+        weight: 1
+      - path: Joints_Grp/Root_Jnt/Hip_Jnt/Tail_01_Jnt/Tail_02_Jnt/Tail_03_Jnt/Tail_04_Jnt
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

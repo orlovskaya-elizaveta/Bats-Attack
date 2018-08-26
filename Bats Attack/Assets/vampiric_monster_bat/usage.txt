@@ -1,0 +1,79 @@
+Thanks for downloading Vampiric Monster Bats,
+I hope you will enjoy our characters
+and use it in your projects.
+
+
+BASIC INFORMATION:
+
+
+Fully animated and rigged 3d model of a vampiric monstrous bats with textures and normal map.
+
+4 Different Prefabs with Animation controllers included. (Texture, size and slight model variations)
+
+Basic maya rig included - so you can create your own animations.
+
+Diffuse, Normal Maps, Specular Maps Emission and 4 different materials included
+
+
+Model info 
+A: 7688Tris 4602Verts 
+B: 8048Tris 5362Verts
+
+Here is a list of animations (13):
+1) t-pose 0-9
+2) idle_fly 10-30 (LOOP)
+3) fly - 40-58 (LOOP)
+4) fly_fast - 60-73 (LOOP)
+5) land - 80-109
+6) idle_landed - 110-210 (LOOP)
+7) fly_up - 211-264
+8) hurt1 (flying) - 265 - 295
+9) hurt2 (landed) - 301 - 330
+10) attack1 (flying) - 335 - 370
+11) attack2 (landed) - 375 - 415
+12) die1 (flying) - 420 - 456
+13) dead1 - 456 - 460 (LOOP)
+14) die2 (landed) - 465 - 492
+15) dead2 - 492 - 500 (LOOP)
+16) defend1 (flying) - 505 - 538
+17) defend2 (landed) - 540 - 580
+18) win (flying - landing) - 585 - 720
+19) win (on the ground) - 610 - 720
+20) lose (flying - landing) - 730 - 800
+21) lose (on the ground) - 758 - 800
+22) lose (idle on the ground) - 800 - 850 (LOOP)
+
+
+For questions send an email to:
+kornica3d@gmail.com
+
+USAGE:
+1) Import package to your unity project
+2) Drag one of the vampiric bats prefabs into your viewport window
+3) Characters come with Animation controller which animates its Idle Animation as a default state
+4) You can use your scripts or game logic to animate the character
+5) For setting up your animations keep in mind:
+
+* IDLE states are meant to be characters default state before noticing the player
+  We have included one idle for character flying in the air and one idle for character standing on the ground (landed)
+
+* You can animate attacks, gethit animation, defend, die animation etc... 
+  IDLE is meant to be a default state from which your character will go into other animations
+  and come back to. 
+
+* Our animations can be divided into starting from flying idle, or starting from landed idle.
+  We have included some preset animation transitions in the animation controller so its easier for you to set them up.
+
+* DIE animations automatically transition into DEAD animation 
+
+* locomotion (flying) and idle animations are looped
+
+* Character has a fly cycle which should begin with transition from 
+  fly-up and then end with land. (You might need to adjust characters Y
+  position accordingly with your scripts)
+
+If you would like to make your own animations, use included character rig
+and export FBX into your unity project
+
+If you have any more questions email kornica3d@gmail.com
+
